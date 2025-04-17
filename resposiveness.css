@@ -1,0 +1,211 @@
+body{
+    margin: 0 auto;
+    background-image: url('./images/lone-tree.jpeg');
+
+}
+.container{
+    background-color: rgb(236, 236, 235);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    grid-template-rows: 500px;
+    grid-gap: 5px;
+    margin: 0 auto;
+    width: 95%; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(236, 236, 235);
+}
+.item{
+    border-radius: 10px;
+}
+.item-1{
+    background-color: rgb(223, 221, 221);
+    margin: 5px 0 5px 5px;
+}
+.item-2{
+    background-color: #ffffffec;
+    margin: 5px 5px 5px 0;
+}
+#right{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    font-size: 10px;
+    padding: 0px 5px;
+}
+#hello{
+   text-align: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: rgb(160, 43, 43);
+   font-size: 25px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.flex{
+    background-color: rgb(245, 128, 215);
+    margin: 10px;
+    padding: 5px;
+    flex: 1;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.que{
+    font-size: 15px;
+    color: hwb(240 5% 95%);
+    font-style: oblique;
+}
+.rem{
+    color: hwb(264 25% 73% / 0.534);
+}
+#sarch{
+    margin: 70px 70px 0px 70px;
+}
+.side{
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+.chats{
+    flex: 1;
+    border: 1px solid rgb(163, 159, 159);
+    border-radius: 5px;
+    padding: 3px;
+    text-align: left;
+    margin: 0px 5px 5px 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.side{
+    margin-top: 50px;
+}
+.pricing-container{
+    display: flex;       
+    justify-content: center;    
+    align-items: center;
+    gap: 2rem; 
+    margin: 20px; 
+    padding-bottom: 20px;    
+  }
+
+  .pricing-plan{
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;  
+  }
+
+  .plan-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .plan-price{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .plan-features{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .plan-features li{
+    margin-bottom: 5px;
+  }
+
+  .plan-button{
+    padding: 7px;
+    background-color: #c9c2bd; 
+    color: #fff;    
+    border-radius: 5px;
+    border: none; 
+  }
+  .contact-container{
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    margin-top: 80px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .contact{
+    flex: 1;
+    
+  }
+  .contact1{
+    border: 1px solid rgb(197, 195, 195);
+    padding: 10px;
+    border-radius: 3px;
+  }
+  .name-container{
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+    padding-top: 0px;
+  }
+@media only screen and (max-width: 800px){
+.grid-container{
+    display: flex;
+   flex-direction: column;
+   gap: 10px;
+    margin: 0 auto;
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.flex-container{
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    padding: 10px;
+    max-width: 400px;
+}
+#sarch{
+    margin: 70px 0px 0px 70px;
+}
+.chats-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pricing-container{
+    flex-direction: column;
+    
+}
+}
+
+@media screen and (max-width: 800px) {
+.contact-container{
+flex-direction: column;
+}
+}
+
